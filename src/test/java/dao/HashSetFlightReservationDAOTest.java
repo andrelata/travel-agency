@@ -34,4 +34,15 @@ public class HashSetFlightReservationDAOTest {
 
         assertThat(flightReservationsResult, hasSize(2));
     }
+
+    @Test
+    public void findForDestiny_ignoreInvalidReservation_isOk() throws IOException {
+        final List<FlightReservation> flightReservationsList = GsonWrapper.GSON
+                .fromJson(IOUtils.toString(getClass().getResourceAsStream("/flightReservation/200_otherResponse.json")), FLIGHT_RESERVATION_LIST_TYPE);
+
+        flightReservationDAO.save(flightReservationsList);
+        final List<FlightReservation> flightReservationsResult = flightReservationDAO.findForDestiny("india");
+
+        assertThat(flightReservationsResult, hasSize(1));
+    }
 }

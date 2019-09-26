@@ -1,6 +1,7 @@
 package dao;
 
 import dto.FlightReservation;
+import spark.utils.StringUtils;
 
 import java.util.HashSet;
 import java.util.List;
@@ -11,11 +12,19 @@ public enum HashSetFlightReservationDAO implements FlightReservationDAO {
 
     INSTANCE;
 
-    Set<FlightReservation> set = new HashSet<>();
+    private final Set<FlightReservation> set;
+
+    HashSetFlightReservationDAO() {
+        set = new HashSet<>();
+    }
 
     @Override
     public void save(final List<FlightReservation> flightReservations) {
-        set.addAll(flightReservations);
+        set.addAll(flightReservations.stream()
+                .filter(f -> !StringUtils.isBlank(f.getReservationId()) &&
+                        !StringUtils.isBlank(f.getDestination()) &&
+                        f.getDate() != null)
+                .collect(Collectors.toList()));
     }
 
     @Override
