@@ -14,7 +14,6 @@ public enum HotelService {
 
     private HotelAPI hotelAPI = HotelAPI.INSTANCE;
 
-    //TODO hacer algun test que hotelSearch tenga mal un dato y no lo devuelva en la lista de hoteles
     public List<Hotel> getHotels(final String destiny) {
         final HotelSearch hotelSearch = hotelAPI.getHotelSearch(destiny);
         return hotelSearch.getResponse().getVenues().stream()

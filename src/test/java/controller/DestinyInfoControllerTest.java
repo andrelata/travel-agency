@@ -44,7 +44,7 @@ public class DestinyInfoControllerTest {
             final String destiny = "buenos aires";
             when(mockInstance.getDestinyInfo(destiny)).thenReturn(mockDestinyResponse);
             Request request = mock(Request.class);
-            when(request.queryParams("destiny")).thenReturn("buenos aires");
+            when(request.queryParams("destiny")).thenReturn(destiny);
             Response response = mock(Response.class);
 
             DestinyResponse destinyResponse = DestinyInfoController.INSTANCE.getInfo(request, response);
