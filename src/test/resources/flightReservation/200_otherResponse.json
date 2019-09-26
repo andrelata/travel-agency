@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2019-12-22T16:05:40.602516",
+    "destination": "Foshan, China",
+    "reservationId": "2b5193c7-1050-4349-ac0e-8e6f0e9b1f47"
+  },
+  {
+    "date": "2019-12-08T20:03:56.602549",
+    "destination": "Dongguan, China",
+    "reservationId": "fb13b040-0011-474f-a4b5-b19f357d9047"
+  },
+  {
+    "date": "2019-12-08T06:02:11.602581",
+    "destination": "Pune, India",
+    "reservationId": "6294c1e7-afc5-46bf-bfe2-282f2ea3bf6a"
+  },
+  {
+    "date": "2019-11-27T22:17:09.602621",
+    "destination": "Karachi, Pakistan",
+    "reservationId": "38c956c1-6b42-421b-afab-d83dab7d7f71"
+  },
+  {
+    "date": "2019-12-01T01:24:41.602656",
+    "destination": "Jaipur, India",
+    "reservationId": "c8d8933f-5894-4720-bedf-bfb0a577cd52"
+  }
+]

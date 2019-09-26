@@ -1,0 +1,26 @@
+{
+  "reservations": [
+    {
+      "id": "3ed3a9c4-f7fb-4ed7-8edf-8cdb1375c365",
+      "date": "2019-10-11T15:41:05.000715"
+    },
+    {
+      "id": "d8c786e9-be71-43b2-9ece-f044c7e821a1",
+      "date": "2019-10-16T14:45:22.000495"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel NH Buenos Aires City",
+      "address": "160 Bolívar"
+    },
+    {
+      "name": "Hotel Mérit",
+      "address": "Adolfo Alsina 801"
+    },
+    {
+      "name": "Hotel Intercontinental",
+      "address": "Moreno 809"
+    }
+  ]
+}

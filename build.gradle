@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+    id 'application'
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+mainClassName = "App"
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile "com.sparkjava:spark-core:2.8.0"
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.google.guava:guava:21.0'
+    compile 'org.glassfish.jersey.core:jersey-client:2.25.1'
+    compile 'org.glassfish.jersey.media:jersey-media-json-jackson:2.25.1'
+
+    testCompile "junit:junit:4.12"
+    testCompile 'org.powermock:powermock-module-junit4:1.6.1'
+    testCompile 'org.powermock:powermock-api-mockito:1.6.1'
+    testImplementation 'org.hamcrest:hamcrest:2.1'
+    testCompile 'io.rest-assured:rest-assured:3.0.2'
+}
+
+test {
+    // Router tests run from within the ApiTest Suite, avoid double run
+    exclude 'router/**'
+    jvmArgs = ['-XX:+StartAttachListener']
+    testLogging {
+        exceptionFormat = 'full'
+    }
+}

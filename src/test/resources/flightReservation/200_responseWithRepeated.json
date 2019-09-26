@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2019-11-28T11:28:23.602288",
+    "destination": "Seoul, South Korea",
+    "reservationId": "5d838ba6-1015-4dd0-86aa-29a50ce636a7"
+  },
+  {
+    "date": "2019-11-28T13:12:26.602381",
+    "destination": "Cairo, Egypt",
+    "reservationId": "cccdaf8d-20c5-4ebf-a57f-6297ca85f3a0"
+  },
+  {
+    "date": "2019-11-28T13:12:26.602381",
+    "destination": "Cairo, Egypt",
+    "reservationId": "cccdaf8d-20c5-4ebf-a57f-6297ca85f3a0"
+  },
+  {
+    "date": "2019-12-24T17:26:50.602415",
+    "destination": "Hong Kong, China",
+    "reservationId": "2a3b3dca-5cc2-43d7-bcbb-d0950eec8c8f"
+  },
+  {
+    "date": "2019-10-27T11:38:50.602449",
+    "destination": "Seoul, South Korea",
+    "reservationId": "b0006e8d-5e96-4bb9-89dc-534f56601651"
+  },
+  {
+    "date": "2019-11-22T17:34:26.602483",
+    "destination": "Shenyang, China",
+    "reservationId": "d0d0cfd5-eac7-49c1-aa17-01ae591484c0"
+  },
+  {
+    "date": "2019-12-24T17:26:50.602415",
+    "destination": "Hong Kong, China",
+    "reservationId": "2a3b3dca-5cc2-43d7-bcbb-d0950eec8c8f"
+  }
+]
