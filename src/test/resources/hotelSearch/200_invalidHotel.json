@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "code": 200,
+    "requestId": "5d8cd374cc7d4140ee45b349"
+  },
+  "response": {
+    "venues": [
+      {
+        "id": "4bbc71ce51b89c742a62872a",
+        "name": "Radisson Montevideo Victoria Plaza Hotel",
+        "location": {
+          "address": "759 Plaza Independencia",
+          "crossStreet": "Ciudadela",
+          "lat": -34.905810390925666,
+          "lng": -56.19950274966817,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": -34.905810390925666,
+              "lng": -56.19950274966817
+            }
+          ],
+          "postalCode": "11100",
+          "cc": "UY",
+          "city": "Montevideo",
+          "state": "Montevideo",
+          "country": "Uruguay",
+          "formattedAddress": [
+            "759 Plaza Independencia (Ciudadela)",
+            "11100 Montevideo Montevideo",
+            "Uruguay"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel",
+            "pluralName": "Hotels",
+            "shortName": "Hotel",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "referralId": "v-1569510260",
+        "hasPerk": false
+      },
+      {
+        "id": "4be367f3b02ec9b6548d4fc0",
+        "name": "Sheraton Montevideo Hotel",
+        "location": {
+          "address": "Victor Soliño 349",
+          "crossStreet": "F. Solano García",
+          "lat": -34.9243841,
+          "lng": -56.1578249,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": -34.9243841,
+              "lng": -56.1578249
+            }
+          ],
+          "postalCode": "11300",
+          "cc": "UY",
+          "city": "Montevideo",
+          "state": "Montevideo",
+          "country": "Uruguay",
+          "formattedAddress": [
+            "Victor Soliño 349 (F. Solano García)",
+            "11300 Montevideo Montevideo",
+            "Uruguay"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel",
+            "pluralName": "Hotels",
+            "shortName": "Hotel",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "referralId": "v-1569510260",
+        "hasPerk": false
+      },
+      {
+        "id": "4eb9beb0b634fa2e62af43e2",
+        "name": "After Hotel",
+        "location": {
+          "address": "Arturo Pratt, 3755",
+          "lat": -34.90390618732875,
+          "lng": -56.132648779914575,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": -34.90390618732875,
+              "lng": -56.132648779914575
+            }
+          ],
+          "cc": "UY",
+          "city": "Montevideo",
+          "state": "Montevideo Dept",
+          "country": "Uruguay",
+          "formattedAddress": [
+            "Arturo Pratt, 3755",
+            "Montevideo Montevideo Dept",
+            "Uruguay"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel",
+            "pluralName": "Hotels",
+            "shortName": "Hotel",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "referralId": "v-1569510260",
+        "hasPerk": false
+      },
+      {
+        "id": "51b4fa1c498ecfb075034ef7",
+        "name": "Hotel Cottage",
+        "location": {
+          "address": "Miraflores 1360",
+          "crossStreet": "Rambla",
+          "lat": -34.89433125834045,
+          "lng": -56.05993420205846,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": -34.89433125834045,
+              "lng": -56.05993420205846
+            }
+          ],
+          "postalCode": "11500",
+          "cc": "UY",
+          "city": "Montevideo",
+          "state": "Montevideo",
+          "country": "Uruguay",
+          "formattedAddress": [
+            "Miraflores 1360 (Rambla)",
+            "11500 Montevideo Montevideo",
+            "Uruguay"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel",
+            "pluralName": "Hotels",
+            "shortName": "Hotel",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "referralId": "v-1569510260",
+        "hasPerk": false
+      },
+      {
+        "id": "4bcb968daeaaeee192e93d6d",
+        "name": "",
+        "location": {
+          "address": "470 Reconquista",
+          "lat": -34.90967677300377,
+          "lng": -56.204348354140734,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": -34.90967677300377,
+              "lng": -56.204348354140734
+            }
+          ],
+          "postalCode": "11000",
+          "cc": "UY",
+          "city": "Montevideo",
+          "state": "Montevideo",
+          "country": "Uruguay",
+          "formattedAddress": [
+            "470 Reconquista",
+            "11000 Montevideo Montevideo",
+            "Uruguay"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel",
+            "pluralName": "Hotels",
+            "shortName": "Hotel",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "referralId": "v-1569510260",
+        "hasPerk": false
+      }
+    ],
+    "geocode": {
+      "what": "",
+      "where": "uruguay",
+      "feature": {
+        "cc": "UY",
+        "name": "Uruguay",
+        "displayName": "Uruguay",
+        "matchedName": "Uruguay",
+        "highlightedName": "<b>Uruguay</b>",
+        "woeType": 12,
+        "slug": "uruguay",
+        "id": "geonameid:3439705",
+        "longId": "72057594041367641",
+        "geometry": {
+          "center": {
+            "lat": -33.0,
+            "lng": -56.0
+          },
+          "bounds": {
+            "ne": {
+              "lat": -30.085215,
+              "lng": -52.875
+            },
+            "sw": {
+              "lat": -35.739554,
+              "lng": -58.4393
+            }
+          }
+        }
+      },
+      "parents": []
+    }
+  }
+}
